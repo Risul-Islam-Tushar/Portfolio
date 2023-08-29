@@ -3,9 +3,9 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full bg-gradient-to-b from-gray-800 to-black text-white "
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white py-6"
     >
-      <div className="max-w-screen-lg h-screen px-4 pt-10 mx-auto flex flex-col justify-center w-full ">
+      <div className="max-w-screen-lg h-screen px-4  mx-auto flex flex-col justify-center w-full ">
         <div className="py-3">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500 text-sky-800 ">
             About
