@@ -23,30 +23,18 @@ const NavBar = () => {
             tabIndex={0}
             className="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black   rounded-box w-52"
           >
-            <li className=" hover:scale-110 duration-200">
-              <a>Item 1</a>
-            </li>
-            <li className=" hover:scale-110 duration-200">
-              <a>Item 2 </a>
-            </li>
-            <li className=" hover:scale-110 duration-200">
-              <a>Item 3</a>
+            <li className=" hover:scale-110 duration-200 font-semibold text-xl">
+              <a>Contact</a>
             </li>
           </ul>
         </div>
-        <h1 className=" text-3xl font-bold ps-6 text-sky-800 hover:scale-110 duration-200 italic">
+        <h1 className=" text-3xl font-bold ps-10 text-sky-800 hover:scale-110 duration-200 italic">
           Tushar
         </h1>
       </div>
       <div className="navbar-center hidden lg:flex text-4xl uppercase mr-10 px-10 ">
         <ul className="menu menu-horizontal px-4 text-sky-800 font-semibold">
-          <li className=" hover:scale-110 duration-200">
-            <a>home</a>
-          </li>
-          <li className=" hover:scale-110 duration-200">
-            <a>projects</a>
-          </li>
-          <li className=" hover:scale-110 duration-200">
+          <li className=" hover:scale-110 duration-200 font-semibold text-xl">
             <a>contact</a>
           </li>
         </ul>

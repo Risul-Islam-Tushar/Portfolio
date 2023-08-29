@@ -1,13 +1,14 @@
 import cover1 from "../assets/navbar.jpg";
+import cover2 from "../assets/bike-1.png";
 const Projects = () => {
   return (
     <div
       name="Projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-screen pb-20"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+          <p className="text-4xl font-bold inline border-b-4 text-sky-800 border-gray-500">
             Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
@@ -32,6 +33,30 @@ const Projects = () => {
               </a>
               <a
                 href="https://github.com/Risul-Islam-Tushar/Phone-Traders.git"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src={cover2}
+              alt=""
+              className="rounded-md duration-200 hover:scale-105 h-44 w-full"
+            />
+            <h1 className="text-center pt-3 text-2xl font-semibold text-sky-700">
+              Bikerz Zone
+            </h1>
+            <div className="flex items-center justify-center">
+              <a
+                href="https://roaring-raindrop-43c18d.netlify.app/"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Site Link
+              </a>
+              <a
+                href="https://github.com/Risul-Islam-Tushar/Bikerz-Zone.git"
                 className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
               >
                 Code

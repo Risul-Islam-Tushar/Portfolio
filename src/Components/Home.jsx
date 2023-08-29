@@ -13,27 +13,30 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl sm:text-7xl font-bold text-white">
-            I'm a Full Stack Developer
+            I'm a MERN Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I have 8 years of experience building and desgining software.
+            an experienced software engineer specializing in web development.
             Currently, I love to work on web application using technologies like
-            React, Tailwind, Next JS and GraphQL.
+            React, Tailwind, Node, MongoDB.
           </p>
 
           <div>
-            <div className="mx-10 mt-4 flex justify-start gap-6">
+            <div className="mx-10 mt-10 flex justify-center gap-8 ">
               <a
-                className=" hover:scale-110"
+                className=" hover:scale-110 shadow-md shadow-sky-700"
                 href="https://github.com/Risul-Islam-Tushar"
               >
-                <FaGithub size={30} />
+                <FaGithub size={35} />
               </a>
-              <a className="hover:scale-110" href="">
-                <FaLinkedinIn size={30} />
+              <a
+                className="hover:scale-110 shadow-md shadow-sky-700"
+                href="https://www.linkedin.com/in/Risul-Islam-Tushar/"
+              >
+                <FaLinkedinIn size={35} />
               </a>
-              <a className="hover:scale-110" href="">
-                <HiOutlineMail size={32} />
+              <a className="hover:scale-110 shadow-md shadow-sky-700" href="">
+                <HiOutlineMail size={37} />
               </a>
             </div>
           </div>
