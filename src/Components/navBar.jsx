@@ -1,6 +1,6 @@
 const NavBar = () => {
   return (
-    <div className="navbar fixed bg-black text-white  flex justify-between  w-full">
+    <div className="navbar  bg-black text-white  flex justify-between  w-full ">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

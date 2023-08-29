@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div
       name="Projects"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-screen pb-20"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white h-screen pt-10 "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -14,7 +14,7 @@ const Projects = () => {
           <p className="py-6">Check out some of my work right here</p>
         </div>
 
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ">
           <div className="shadow-md shadow-gray-600 rounded-lg">
             <img
               src={cover1}

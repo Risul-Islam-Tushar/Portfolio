@@ -3,7 +3,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white"
+      className="w-full h-screen bg-gradient-to-b from-gray-800 to-black text-white "
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -22,7 +22,7 @@ const About = () => {
 
         <br />
 
-        <p className="text-xl">
+        <p className="text-xl pb-20">
           I'm excited to contribute my skills and continue growing as a
           developer. Let's connect and explore how we can collaborate to bring
           remarkable ideas to life.

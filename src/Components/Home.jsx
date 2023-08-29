@@ -13,7 +13,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full pb-4">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white">
+          <h2 className="text-4xl sm:text-5xl pt-20 md:text-6xl  font-bold text-sky-700">
             I'm a MERN Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
@@ -25,19 +25,22 @@ const Home = () => {
           <div>
             <div className="mx-10 mt-10 flex justify-center gap-8 ">
               <a
-                className=" hover:scale-110 shadow-md shadow-sky-700"
+                className=" hover:scale-110 shadow-lg shadow-sky-700 rounded-full"
                 href="https://github.com/Risul-Islam-Tushar"
               >
-                <FaGithub size={35} />
+                <FaGithub size={50} />
               </a>
               <a
-                className="hover:scale-110 shadow-md shadow-sky-700"
+                className="hover:scale-110 shadow-lg shadow-sky-700 rounded-full"
                 href="https://www.linkedin.com/in/Risul-Islam-Tushar/"
               >
-                <FaLinkedinIn size={35} />
+                <FaLinkedinIn size={50} />
               </a>
-              <a className="hover:scale-110 shadow-md shadow-sky-700" href="">
-                <HiOutlineMail size={37} />
+              <a
+                className="hover:scale-110 shadow-lg shadow-sky-700 rounded-full"
+                href=""
+              >
+                <HiOutlineMail size={50} />
               </a>
             </div>
           </div>
