@@ -1,4 +1,5 @@
 import About from "./Components/About";
+import Contact from "./Components/Contact";
 
 import Experiances from "./Components/Experiances";
 import Home from "./Components/Home";
@@ -17,6 +18,8 @@ function App() {
       <Projects></Projects>
 
       <Experiances></Experiances>
+
+      <Contact></Contact>
     </div>
   );
 }

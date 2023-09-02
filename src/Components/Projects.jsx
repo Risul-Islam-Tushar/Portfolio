@@ -1,5 +1,6 @@
 import cover1 from "../assets/navbar.jpg";
-import cover2 from "../assets/bike-1.png";
+import cover2 from "../assets/dessert-bg.jpeg";
+import cover3 from "../assets/bike-1.png";
 const Projects = () => {
   return (
     <div
@@ -42,6 +43,30 @@ const Projects = () => {
           <div className="shadow-md shadow-gray-600 rounded-lg">
             <img
               src={cover2}
+              alt=""
+              className="rounded-md duration-200 hover:scale-105 h-44 w-full"
+            />
+            <h1 className="text-center pt-3 text-2xl font-semibold text-sky-700">
+              BB-Restaurent
+            </h1>
+            <div className="flex items-center justify-center">
+              <a
+                href=""
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Site Link
+              </a>
+              <a
+                href="https://github.com/Risul-Islam-Tushar/BB_RESTAURENT.git"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src={cover3}
               alt=""
               className="rounded-md duration-200 hover:scale-105 h-44 w-full"
             />
