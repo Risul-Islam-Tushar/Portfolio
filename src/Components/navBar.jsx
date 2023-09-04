@@ -1,3 +1,5 @@
+import resume from "../assets/Risul Islam Tushar Resume.pdf";
+
 const NavBar = () => {
   return (
     <div className="navbar  bg-black text-white  flex justify-between  w-full py-6 ">
@@ -24,18 +26,24 @@ const NavBar = () => {
             className="menu  menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-black   rounded-box w-52"
           >
             <li className=" hover:scale-110 duration-200 font-semibold text-xl">
-              <a>Contact</a>
+              <a href={resume} download>
+                <button>Download</button>
+              </a>
             </li>
           </ul>
         </div>
         <h1 className=" text-3xl font-bold ps-10 text-sky-800 hover:scale-110 duration-200 italic">
-          Tushar
+          TUSHAR
         </h1>
       </div>
       <div className="navbar-center hidden lg:flex text-4xl uppercase mr-10 px-10 ">
         <ul className="menu menu-horizontal px-4 text-sky-800 font-semibold">
           <li className=" hover:scale-110 duration-200 font-semibold text-xl">
-            <a>contact</a>
+            <a href={resume} download>
+              <button className="bg-sky-800 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                RESUME
+              </button>
+            </a>
           </li>
         </ul>
       </div>
