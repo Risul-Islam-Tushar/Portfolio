@@ -3,7 +3,7 @@
 // import HeroImage from "../assets/heroImage.png";
 
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
-import { HiOutlineMail } from "react-icons/hi";
+
 import profile from "../assets/portfolioImg.jpeg";
 
 const Home = () => {
@@ -40,12 +40,6 @@ const Home = () => {
                 href="https://www.linkedin.com/in/Risul-Islam-Tushar/"
               >
                 <FaLinkedinIn size={30} />
-              </a>
-              <a
-                className="hover:scale-150 duration-200 shadow-lg shadow-sky-700 rounded-full"
-                href=""
-              >
-                <HiOutlineMail size={30} />
               </a>
             </div>
           </div>
