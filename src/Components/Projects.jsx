@@ -1,6 +1,9 @@
 import cover1 from "../assets/navbar.jpg";
-import cover2 from "../assets/dessert-bg.jpeg";
-import cover3 from "../assets/bike-1.png";
+import cover2 from "../assets/nobonocket.jpg";
+import cover3 from "../assets/coffeeshop.jpg";
+import cover4 from "../assets/waffle.jfif";
+import cover5 from "../assets/dessert-bg.jpeg";
+import cover6 from "../assets/bike-1.png";
 const Projects = () => {
   return (
     <div
@@ -44,6 +47,78 @@ const Projects = () => {
             <img
               src={cover2}
               alt=""
+              className="rounded-md h-44 w-full duration-200 hover:scale-105"
+            />
+            <h1 className="text-center pt-3 text-2xl font-semibold text-sky-700">
+              Nobonocket
+            </h1>
+            <div className="flex items-center justify-center">
+              <a
+                href="https://hoteltemplate-nobonocket.netlify.app/"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Site Link
+              </a>
+              <a
+                href="https://github.com/Risul-Islam-Tushar/Hotel-Website-Template.git"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src={cover3}
+              alt=""
+              className="rounded-md h-44 w-full duration-200 hover:scale-105"
+            />
+            <h1 className="text-center pt-3 text-2xl font-semibold text-sky-700">
+              Roast & Revelay
+            </h1>
+            <div className="flex items-center justify-center">
+              <a
+                href="https://roastandrevelay.netlify.app/"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Site Link
+              </a>
+              <a
+                href="https://github.com/Risul-Islam-Tushar/CoffeeShop-Template.git"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src={cover4}
+              alt=""
+              className="rounded-md h-44 w-full duration-200 hover:scale-105"
+            />
+            <h1 className="text-center pt-3 text-2xl font-semibold text-sky-700">
+              Xo Waffle
+            </h1>
+            <div className="flex items-center justify-center">
+              <a
+                href="https://xo-waffle.netlify.app/"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Site Link
+              </a>
+              <a
+                href="https://github.com/Risul-Islam-Tushar/WaffleShop-template.git"
+                className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+              >
+                Code
+              </a>
+            </div>
+          </div>
+          <div className="shadow-md shadow-gray-600 rounded-lg">
+            <img
+              src={cover5}
+              alt=""
               className="rounded-md duration-200 hover:scale-105 h-44 w-full"
             />
             <h1 className="text-center pt-3 text-2xl font-semibold text-sky-700">
@@ -66,7 +141,7 @@ const Projects = () => {
           </div>
           <div className="shadow-md shadow-gray-600 rounded-lg">
             <img
-              src={cover3}
+              src={cover6}
               alt=""
               className="rounded-md duration-200 hover:scale-105 h-44 w-full"
             />
